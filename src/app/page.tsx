@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold mb-4">Automate Test</h1>
+      <h1 id='t-01' className="text-3xl font-bold mb-4">Automate Test</h1>
       <div className="grid gap-4">
         <button 
           onClick={navigateToHome}
